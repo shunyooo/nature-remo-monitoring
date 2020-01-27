@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+    remo-crawler:
+        build:
+            context: ./
+            dockerfile: ./docker/Dockerfile
+        command: python /app/main.py
+        env_file:
+            - ./.env
