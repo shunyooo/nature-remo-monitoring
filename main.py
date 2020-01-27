@@ -4,7 +4,7 @@ import remoclient
 import spreadsheet
 
 
-def run():
+def run(*args, **kwags):
     gs = spreadsheet.SpreadSheet()
     gs.open_sheet(filename=os.environ['SHEET_NAME'])
     last_line = gs.get_col_length()

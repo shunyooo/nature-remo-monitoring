@@ -10,7 +10,7 @@ class SpreadSheet(object):
         scope = ['https://spreadsheets.google.com/feeds',
                  'https://www.googleapis.com/auth/drive']
         credentials = ServiceAccountCredentials.from_json_keyfile_name(
-            os.environ['GS_CREDENTIAL_PATH'], scope)
+            os.environ['GOOGLE_APPLICATION_CREDENTIALS'], scope)
         self.gs = gspread.authorize(credentials)
 
     def open_sheet(self, filename):
