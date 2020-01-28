@@ -2,7 +2,7 @@
 
 [English](./README.md) | **日本語**
 
-[Nature Remo Cloud API](https://developer.nature.global/) から室温, 湿度, 照度, 動きを毎分監視し、GoogleSpreadSheet に保存する Pythonスクリプト。Cloud Functions にデプロイ可能。
+[Nature Remo Cloud API](https://developer.nature.global/) から室温, 湿度, 照度, 動きを毎分監視し、GoogleSpreadSheet に保存する Pythonスクリプト。Cloud Functions にデプロイ可能。
 
 
 
