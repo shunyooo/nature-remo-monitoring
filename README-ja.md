@@ -10,7 +10,7 @@
 
 1. https://home.nature.global/ から Nature Remo のアクセストークンを取得してください
 2.  https://console.developers.google.com/iam-admin/serviceaccounts からGoogleサービスアカウントを作成か選択して認証ファイル.jsonを取得してください
-3. https://docs.google.com/spreadsheets/create からスプレッドシートを作成してください
+3. https://docs.google.com/spreadsheets/create からスプレッドシートを作成してください（10列500000行に設定してください）
 
 4. 以下の [.env](.env) ファイルを設定します
 

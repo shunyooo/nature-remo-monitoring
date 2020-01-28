@@ -10,7 +10,7 @@ A Python script that monitors room temperature, humidity, illuminance, and motio
 
 1. Get Nature Remo access token from https://home.nature.global/.
 2. Create or get google service account from https://console.developers.google.com/iam-admin/serviceaccounts, and download credintial json file.
-3. Create spread sheet from https://docs.google.com/spreadsheets/create.
+3. Create spread sheet from https://docs.google.com/spreadsheets/create. (Set to 10 columns and 500000 rows)
 
 4. set [.env](.env).
 
