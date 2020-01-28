@@ -5,7 +5,7 @@ ENV APP_HOME /app
 WORKDIR $APP_HOME
 
 # Install production dependencies.
-COPY docker/requirements.txt /tmp/requirements.txt
+COPY requirements.txt /tmp/requirements.txt
 RUN pip install --upgrade pip && pip install -r /tmp/requirements.txt
 
 COPY ./ /app
