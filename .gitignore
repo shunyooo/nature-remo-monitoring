@@ -1,5 +1,7 @@
 config/*
 
+
+# jupyter notebook
 MANIFEST
 build
 dist
