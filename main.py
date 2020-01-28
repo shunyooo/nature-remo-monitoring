@@ -41,7 +41,13 @@ def run(*args, **kwags):
         events['mo']['val'],
         events['mo']['created_at']
     ]
-    gs.update_column(last_line + 1, values)
+
+    if [str(v) for v in values[2:]] != gs.get_latest_row()[2:]:
+        print('update')
+        gs.update_column(last_line + 1, values)
+    else:
+        print('no update')
+
     print('done!')
 
 

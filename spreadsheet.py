@@ -19,6 +19,10 @@ class SpreadSheet(object):
     def get_col_length(self, row=1):
         return len(self.sheet.col_values(row))
 
+    def get_latest_row(self):
+        col_len = self.get_col_length()
+        return self.sheet.row_values(col_len)
+
     def update_column(self, line, values):
         cells = self.sheet.range(line, 1, line, len(values))
         for i in range(len(cells)):
